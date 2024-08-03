@@ -208,9 +208,12 @@ ul li a:hover{
 }
 .form.link{
     font-size: arial,Helvetica,sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
+    font-size: 120px;
+    padding-top: 30px;
     text-align: center;
+    width: 34px;
+    height: 5500px;
+    margin-bottom: auto;
 }
 .form.form.link{
     text-decoration: none;
@@ -238,8 +241,8 @@ transition: 0.3s ease;
 }
 
 .image{
-    width: 600px;
-    height: 400px;
+    width: 800px;
+    height: 370px;
 }
 .wallet-icon {
     font-size: 2rem;
