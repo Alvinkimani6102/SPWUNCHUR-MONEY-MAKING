@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Earnings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Earnings</h1>
+        <div id="survey-container"></div>
+        <div id="earnings">Total Earnings: $<span id="total-earnings">0.00</span></div>
+        <button id="withdrawBtn">Withdraw</button>
+    </div>
+
+    <!-- Withdraw Popup -->
+    <div id="withdraw-popup" class="popup">
+        <div class="popup-content">
+            <h2>Withdraw Funds</h2>
+            <p>Click the button below to withdraw funds via WhatsApp:</p>
+            <button id="whatsappBtn">Withdraw via WhatsApp</button>
+            <button onclick="closeWithdrawPopup()">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
